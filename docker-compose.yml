@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  stephenripple:
+    image: stephenripple
+    build:
+      context: ./StephenRipple
+      dockerfile: Dockerfile
